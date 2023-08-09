@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int num1;
+   int num2;
+   int suma;
+   int resta;
+   int mult;
+   float diviNA;
+   
+   cout<< "MALDITO INFELIZ, DAME UN NUMERO O TE VOY A ASESINAAAAAAAAR"<< endl;   
+   cin>> num1;
+   cout<< "MALDITO INFELIZ, DAME OTRO NUMERO O TE VOY A ASESINAAAAAAAAR"<< endl;
+   cin>> num2;
+   
+   cout<< "TUS ESTUPIDOS RESULTADOS SON:"<< endl;
+   suma=num1+num2;
+   resta=num1-num2;
+   mult=num1*num2;
+   diviNA=num1/num2;
+   
+   cout<< "suma: " << suma<< endl;
+   cout<< "resta " << resta<< endl;
+   cout<< "mult " << mult<< endl;
+   cout<< "diviNA " << diviNA<< endl;
+
+    return 0;}
