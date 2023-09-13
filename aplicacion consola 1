@@ -1,0 +1,29 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+    int n, m, contador;
+    float suma = 0, promedio;
+
+    cout << "dale un valor a n " << endl;
+    cin >> n;
+    cout << "dale un maldito valor a m xd:" << endl;
+    cin >> m;
+    contador = n;
+
+    while (contador <= n)
+    {
+        suma = suma + contador;
+        contador = contador + 1;
+    }
+
+    promedio = suma / (n - m + 1);
+    cout << " la fokin suma es :" << suma << endl;
+    cout << " el puto promedio es: " << promedio << endl;
+
+}
+
+return 0;
