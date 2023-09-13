@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, m;
+    
+    n=10;
+    
+    do{
+        std::cout << n << std::endl;
+        n++;
+    }while(n>=1);
