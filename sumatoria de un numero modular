@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+//prototipos 
+int Digito (int numero);
+int main()
+{
+	int n,suma=0,i;
+
+	do{
+		cout << "ingresar el numero : ";
+		cin >> n;
+	} while (n < 0);
+
+
+	while (n != 0) {
+		i = Digito(n);
+		suma = suma + i;
+		n = n / 10;
+	}
+	cout << "las suma de los digitos del numero es: " << suma << endl;
+	return 0;
+}
+int Digito(int n)
+{
+	return n % 10;
+}
