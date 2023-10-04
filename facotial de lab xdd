@@ -1,0 +1,30 @@
+#include <iostream>
+
+int factorial(int numero);
+int main()
+{
+    int f, n;
+
+
+    std::cout << " dame un numero n " << std::endl;
+    cin >> n;
+
+    f = factorial(n);
+    cout << " el factorial de :" << n << " es " << f << endl;
+    
+    return 0;
+}
+int factorial(int n)
+{
+    float x;
+    x=1
+
+    for(int c = 1; c<= n; c++)
+    {
+        x = x * c;
+
+    }
+    return x;
+
+
+    }
