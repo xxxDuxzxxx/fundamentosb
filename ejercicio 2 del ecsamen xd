@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float precio, descuento, totalpago;
+    
+    std::cout << " entonces el precio es: " << std::endl;
+    std::cin >> precio;
+    
+    cout << " ingresa un porcentaje de descuento: ";
+    cin >> descuento;
+    
+    totalpago = precio - (precio*descuento);
+    
+    cout << " lo que tienes que pagar es: " << totalpago <<endl;
+    
+    return 0;
+}
